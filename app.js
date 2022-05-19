@@ -30,7 +30,7 @@ app.use('/api/v1/jobs', auth, jobsRoter)
 app.use(errorHandlerMiddleware)
 app.use(notfound)
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 8000
 
 const start = async () => {
     try {
